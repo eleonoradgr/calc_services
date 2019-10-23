@@ -7,7 +7,7 @@ from myservice.app import app as tested_app
 class TestApp2(unittest.TestCase):
 
     def test1(self):  # allpolls
-        app = tested_app.test_client()
+        app = tested_app.test_client() 
 
         reply = app.get('/calc/sum?m=1&n=2')
         body = json.loads(str(reply.data, 'utf8'))

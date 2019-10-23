@@ -14,14 +14,14 @@ app.config["flask_profiler"] = {
     "storage": {
         "engine": "sqlite"
     },
-    "basicAuth":{
+    "basicAuth": {
         "enabled": True,
         "username": "admin",
         "password": "admin"
     },
     "ignore": [
-	    "^/static/.*"
-	]
+        "^/static/.*"
+    ]
 }
 
 profiler = Profiler(app)
