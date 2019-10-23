@@ -1,0 +1,15 @@
+*.un~
+__pycache__
+.tox
+.coverage
+.Python
+myservice.egg-info
+docs/build/
+src
+bin
+lib
+include
+.cache
+venv
+.vscode
+flask_profiler.sql
