@@ -1,6 +1,7 @@
 import os
 from flakon import create_app
-from flask_profiler import Profiler
+#from flask_profiler import Profiler
+import flask_profiler
 from myservice.views import blueprints
 
 _HERE = os.path.dirname(__file__)

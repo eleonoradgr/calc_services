@@ -4,6 +4,5 @@ env:
  - TOX_ENV=py36
 install:
  - pip install tox
- - pip install flask_profiler 
 script:
  - tox -e $TOX_ENV
